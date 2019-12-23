@@ -1,0 +1,273 @@
+@charset "UTF-8";
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕";
+    color: #333333;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body,html{
+    max-width: 100%;
+    background-color: #ffffff;
+}
+.wrap{
+    width: 1200px;
+}
+.clear{
+    clear: both;
+    position: inherit;
+}
+button{
+    cursor: pointer;
+}
+header{
+    height: 100px;
+}
+.logo>a>img{
+    padding: 30px;
+}
+nav{
+    float: right;
+    text-align: center;
+}
+.mainmenu{
+    width: 640px;
+    margin-right: 30px;
+    margin-top: -42px;
+}
+.mainmenu>li{
+    width: 160px;
+    height: 22px;
+    float: left;
+    position: relative;
+    padding: 10px 0px;
+}
+.mainmenu>li:hover{
+    background-color: #00c73c;
+}
+.submenu{
+    width: 160px;
+    position: absolute;
+    margin-top: 10px;
+    z-index: 2;
+    display: none;
+}
+.submenu>li{
+    padding: 10px 0px;
+    color: #ffffff;
+}
+.submenu>li:hover{
+    background-color: #8fe5a5;
+    color: #333333;
+}
+.subback{
+    width: 100%;
+    height: 180px;
+    background-color: #737373;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 10.6%;
+    display: none;
+    margin-left: 5px;
+}
+
+
+
+#imgslide{
+    height: 300px;
+    overflow: hidden;
+}
+.slide{
+    height: 900px;
+}
+.slide img{
+    width: 1200px;
+    height: 300px;
+    display: block;
+}
+
+
+
+#contents{
+    height: 200px;
+    display: inline-block;
+}
+#noticeNgallery{
+    width: 400px;
+    height: 200px;
+    float: left;
+    position: relative;
+}
+#noticeNgallery h2 button{
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background-color: inherit;
+    float: left;
+}
+#noticeNgallery h2 button:hover{
+    background-color: #00c73c;
+    color: #333333 !important;
+}
+#noticeBtn{
+    position: relative;
+    color: #333333;
+}
+#galleryBtn{
+    position: absolute;
+    top: 0;
+    left: 80px;
+    color: lightgray;
+}
+#notice{
+    width: 400px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 0.8em;
+}
+#notice td{
+    padding: 5px 0px;
+}
+.item{
+    width: 80%;
+    float: left;
+}
+.date{
+    width: 20%;
+    float: right;
+}
+#gallery{
+    width: 400px;
+    height: 160px;
+    display: none;
+    position: relative;
+    float: left;
+}
+#gallery img{
+    width: 33.333%;
+    height: 100px;
+    display: block;
+    float: left;
+}
+#notice tr:nth-child(2n){
+    background-color: #8fe5a5;
+    color: #ffffff;
+}
+#banner1{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+#banner1>a>img{
+    width: 400px;
+    height: 200px;
+    display: block;
+}
+#banner2{
+    width: 400px;
+    height: 200px;
+    float: right;
+}
+#banner2>a>img{
+    width: 400px;
+    height: 200px;
+    display: block;
+}
+
+
+footer{
+    height: 100px;
+    background-color: #00c73c;
+}
+#copyright{
+    width: 80%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    font-size: 18px;
+}
+#SNSnFamily{
+    width: 20%;
+    height: 100px;
+    float: right;
+}
+#sns{
+    height: 50px;
+    display: inline-block;
+}
+.snsicon{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    float: left;
+    margin-left: 10px;
+}
+.instagram{
+    margin-top: -12px;
+    margin-left: -15px
+}
+.facebook{
+    margin-top: -12px;
+    margin-left: -85px
+}
+.twitter{
+    margin-top: -12px;
+    margin-left: -155px
+}
+#familysite{
+    width: 100%;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 7.5px;
+}
+#familysite select{
+    width: 150px;
+    height: 25px;
+}
+#familysite button{
+    width: 50px;
+    height: 25px;
+}
+
+
+
+#modal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+#modalbody{
+    width: 500px;
+    height: 450px;
+    background-color: #ffffff;
+    margin-top: 150px;
+    text-align: center;
+}
+#modalbody>h2{
+    padding: 20px 10px 10px 10px;
+    font-size: 19px;
+}
+#modalbody>p{
+    padding: 0px 20px 20px 20px;
+}
+.modalbutton{
+    width: 100px;
+    height: 40px;
+    background-color: #00c73c;
+    border: none;
+    border-radius: 10px;
+    margin-top: -5px;
+}
+.modalbutton:hover{
+    background-color: #8fe5a5;
+}
